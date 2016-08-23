@@ -76,7 +76,8 @@ def story():
     #copy-pasta provided below for your convenience (seriously, I can't make this any easier):  
     #add_line("") #no wild cards                                                                
     #add_line("{0}".format(var)) #with wild card
-
+    #(Added by Daniel Castro)
+    add_line("{0} couldn't believe it.".format(protagonist))
     
     return("\n".join(lines))
 
@@ -92,7 +93,8 @@ def rand_adj():
             "tall",
             "boring",
             "cute",
-            "pleasant"
+            "pleasant",
+            
             ]
             
     return rc(adjs)
